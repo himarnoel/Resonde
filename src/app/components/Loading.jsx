@@ -18,11 +18,11 @@ const Loading = () => {
         y: 0,
         opacity: 1,
         stagger: 0.1,
-        duration: 1.5,
+        duration: 1.2,
       })
       .to(lettersRef.current, {
         opacity: 1,
-        duration: 1.5,
+        duration: 1.2,
         y: 0,
         stagger: 0.1,
       })
@@ -30,11 +30,11 @@ const Loading = () => {
         y: 5,
         opacity: 0,
         stagger: 0.1,
-        duration: 1.5,
+        duration: 1,
       }, "+=0.5")
       .to(bgRef.current, {
         yPercent: -120,
-        duration: 1.3,
+        duration: 1.1,
       }, "-=0.2");
 
   }, []);
