@@ -23,14 +23,14 @@ const Loading = () => {
       .to(lettersRef.current, {
         opacity: 1,
         duration: 1.2,
-        y: 0,
+        // y: 0,
         stagger: 0.1,
       })
       .to(lettersRef.current, {
-        y: 5,
+        y: 100,
         opacity: 0,
         stagger: 0.1,
-        duration: 1,
+        duration: 1.2,
       }, "+=0.5")
       .to(bgRef.current, {
         yPercent: -120,
