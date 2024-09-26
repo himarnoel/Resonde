@@ -3,6 +3,7 @@ import Loading from "./components/Loading";
 import Navbar from "./components/Navbar";
 import HomeHero from "./components/HomeHero";
 import HowWeWork from "./components/HowWeWork";
+import UniquesVAService from "./components/UniquesVAService";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       {/* <Loading/> */}
       <HomeHero/>
       <HowWeWork/>
+      <UniquesVAService/>
     </main>
   );
 }
