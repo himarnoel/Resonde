@@ -26,7 +26,7 @@ const DummyContent = () => {
             className="text-neutral-600 text-base md:text-2xl font-sans max-w-3xl mx-auto">
             <span className="font-bold text-neutral-700">
               The first rule of Apple club is that you boast about Apple club.
-            </span>{" "}
+            </span>
             Keep a journal, quickly jot down a grocery list, and take amazing
             class notes. Want to convert those notes to text? No problem.
             Langotiya jeetu ka mara hua yaar is ready to capture every

@@ -5,6 +5,7 @@ import HomeHero from "./components/HomeHero";
 import HowWeWork from "./components/HowWeWork";
 import UniquesVAService from "./components/UniquesVAService";
 import WhatYouGet from "./components/WhatYouGet";
+import UniquesSKills from "./components/UniquesSKills";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <HowWeWork/>
       <UniquesVAService/>
       <WhatYouGet/>
+      <UniquesSKills/>
     </main>
   );
 }
