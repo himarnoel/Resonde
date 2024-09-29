@@ -4,24 +4,24 @@ import Image from 'next/image'
 import React, { useRef } from 'react'
 import img from '/public/home/Businessman using phone.svg'
 import TestimonialDisc from './TestimonialDisc'
-import { gsap } from 'gsap/dist/gsap';
+// import { gsap } from 'gsap/dist/gsap';
 
 const HomeHero = () => {
-    const dt = useRef(null)
-    gsap.to(dt.current, {
-        duration: 2,
-        x: 100, // Moves the packet from sender to receiver
-        repeat: -1, // Infinite loop
-        yoyo: true // Animates back to sender after reaching receiver
-    });
+    // const dt = useRef(null)
+    // gsap.to(dt.current, {
+    //     duration: 2,
+    //     x: 100, // Moves the packet from sender to receiver
+    //     repeat: -1, // Infinite loop
+    //     yoyo: true // Animates back to sender after reaching receiver
+    // });
   return (
     <section className='max-w-[1280px] mx-auto px-5 py-[100px] flex flex-col justify-center items-center gap-[60px]'>
 
-        <svg id="dataSharingSvg" width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+        {/* <svg id="dataSharingSvg" width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
             <circle id="sender" cx="50" cy="100" r="20" fill="#3498db" />
             <circle id="receiver" cx="150" cy="100" r="20" fill="#e74c3c" />
             <circle ref={dt} id="dataPacket" cx="50" cy="100" r="5" fill="#2ecc71" />
-        </svg>
+        </svg> */}
 
         <div className='w-full lg:w-[749px] flex flex-col justify-center items-center text-center gap-[32px]'>
             <h1 className='text-[#262B2C] font-semibold leading-[76.8px] text-[3.75rem]'>

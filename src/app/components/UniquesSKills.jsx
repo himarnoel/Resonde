@@ -1,21 +1,66 @@
-import React from 'react'
-import ProcessCarousel from './ProcessCarousel'
-import { AppleCardsCarousel } from './AppleCardsCarousel'
+import React from 'react';
+import CardCarousel from './CardCarousel';
+import design from '../../../public/home/skills/design.svg';
+import web from '../../../public/home/skills/web.svg';
+import maintenance from '../../../public/home/skills/maintenance.svg';
+import media from '../../../public/home/skills/media.svg';
+import support from '../../../public/home/skills/support.svg';
+import data from '../../../public/home/skills/data.svg';
 
 const UniquesSKills = () => {
+  const uSkills = [
+    {
+      id: 1,
+      title: "Web Design",
+      category: "Web Design",
+      src: design,
+    },
+    {
+      id: 2,
+      title: "Web Development",
+      category: "Web Development",
+      src: web,
+    },
+    {
+      id: 3,
+      title: "Software Maintenance",
+      category: "Software Maintenance",
+      src: maintenance,
+    },
+    {
+      id: 4,
+      title: "Media Marketing",
+      category: "Media Marketing",
+      src: media,
+    },
+    {
+      id: 5,
+      title: "Customer Support",
+      category: "Customer Support",
+      src: support,
+    },
+    {
+      id: 6,
+      title: "Data Entry and Management",
+      category: "Data Entry and Management",
+      src: data,
+    },
+  ];
+
   return (
-    <section className='bg-[#111111] relative w-full py-[50px] min-h-screen'>
-        <div className=''>
-            <div className='px-3 max-w-[1280px] mx-auto flex flex-col justify-center items-start gap-[16px]'>
-                <h1 className='text-white w-full xl:w-[687px] font-semibold text-[3.5rem] leading-[61.6px]'>Unique Skills sets</h1>
-                <p className='text-white w-full xl:w-[687px] font-light leading-[36px] text-[1.5rem]'>Unlock the power of efficient task management with Resonade.</p>
-            </div>
-            {/* <div> */}
-                <AppleCardsCarousel/>
-            {/* </div> */}
+    <section className='bg-[#111111] w-full py-[50px] min-h-screen overflow-hidden relative'>
+      <div className='flex flex-col gap-y-[80px] justify-center items-start max-w-[1280px] mx-auto'>
+        <div className='px-3 flex flex-col justify-center items-start gap-[16px]'>
+          <h1 className='text-white w-full xl:w-[687px] font-semibold text-[3.5rem] leading-[61.6px]'>
+            Unique Skills sets
+          </h1>
+          <p className='text-white w-full xl:w-[687px] font-light leading-[36px] text-[1.5rem]'>
+            Unlock the power of efficient task management with Resonade.
+          </p>
         </div>
+      </div>
     </section>
-  )
+  );
 }
 
-export default UniquesSKills
+export default UniquesSKills;

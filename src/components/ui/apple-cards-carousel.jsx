@@ -83,7 +83,7 @@ export const Carousel = ({
           onScroll={checkScrollability}>
           <div
             className={cn(
-              "absolute right-0  z-[1000] h-auto  w-[5%] overflow-hidden bg-gradient-to-l"
+              "absolute right-0 z-[1000] h-auto  w-[5%] overflow-hidden bg-gradient-to-l"
             )}></div>
 
           <div
@@ -174,7 +174,7 @@ export const Card = ({
   return (<>
     <AnimatePresence>
       {open && (
-        <div className="fixed inset-0 h-screen z-50 overflow-auto">
+        <div className="relative inset-0 h-screen z-50 overflow-auto">
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -194,12 +194,12 @@ export const Card = ({
             </button>
             <motion.p
               layoutId={layout ? `category-${card.title}` : undefined}
-              className="text-base font-medium text-black dark:text-white">
+              className="text-base absolute bottom-3 left-3 font-medium text-black dark:text-white">
               {card.category}
             </motion.p>
             <motion.p
               layoutId={layout ? `title-${card.title}` : undefined}
-              className="text-2xl md:text-5xl font-semibold text-neutral-700 mt-4 dark:text-white">
+              className="text-white font-normal text-[1.75rem] leading-[42px] text-left mt-2">
               {card.title}
             </motion.p>
             <div className="py-10">{card.content}</div>
@@ -221,7 +221,7 @@ export const Card = ({
         </motion.p>
         <motion.p
           layoutId={layout ? `title-${card.title}` : undefined}
-          className="text-white text-xl md:text-3xl font-semibold max-w-xs text-left [text-wrap:balance] font-sans mt-2">
+          className="text-white font-normal text-[1.75rem] leading-[42px] text-left mt-2">
           {card.title}
         </motion.p>
       </div>

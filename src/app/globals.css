@@ -6,4 +6,59 @@
     --radius: 0.5rem
   }
 }
+
+
+
+/* .custom-arrow {
+  background: transparent;
+  border: 2px solid white;
+  border-radius: 50%;
+  padding: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+} */
+
+.custom-arrow svg {
+  color: white;
+}
+
+.custom-arrow:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.splide__arrow {
+  position: static;
+  transform: none;
+}
+
+.custom-arrow {
+  background: transparent;
+  border: 2px solid white;
+  border-radius: 50%;
+  padding: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.custom-arrow svg {
+  color: white;
+}
+
+.custom-arrow:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.splide__arrow {
+  position: static;
+  transform: none;
+}
+
+@media (max-width: 640px) {
+  .splide__arrow {
+    /* Ensure responsive adjustments for smaller screens */
+    width: 36px;
+    height: 36px;
+  }
+}
+
   
