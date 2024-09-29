@@ -13,15 +13,15 @@ import { GoArrowLeft } from "react-icons/go";
 
 
 const items = [
-    <div key='1' className='w-full xl:w-[640px] h-full xl:h-[720px] flex flex-col justify-center items-center'>
+    <div key='1' className='w-full lg:w-[500px] xl:w-[640px] h-full xl:h-[720px] flex flex-col justify-center items-center'>
         <Image
         src={man}
         width={640}
         height={440}
         alt='Image One'
-        className="rounded-tl-[16px] rounded-tr-[16px] object-cover"
+        className="rounded-tl-[16px] w-full lg:w-[500px] xl:w-[640px] rounded-tr-[16px] object-cover"
         />
-        <div className="bg-[#1C1C1C] w-full xl:w-[640px] rounded-bl-[16px] rounded-br-[16px] px-[20px] py-[32px]">
+        <div className="bg-[#1C1C1C] w-full lg:w-[500px] xl:w-[640px] rounded-bl-[16px] rounded-br-[16px] px-[20px] py-[32px]">
             <div className='flex flex-col justify-center items-start gap-[24px]'>
                 <p className="text-[1.5rem] font-medium leading-[26.4px] text-[#AC4F47]">
                     01
@@ -40,69 +40,69 @@ const items = [
             </div>
         </div>
     </div>,
-    <div key='2' className='w-full xl:w-[640px] h-full xl:h-[720px] flex flex-col justify-center items-center'>
+    <div key='2' className='w-full lg:w-[500px] xl:w-[640px] h-full xl:h-[720px] flex flex-col justify-center items-center'>
         <Image
         src={woman}
         width={640}
         height={440}
         alt='Image Two'
-        className="rounded-tl-[16px] rounded-tr-[16px] object-cover"
+        className="rounded-tl-[16px] w-full lg:w-[500px] xl:w-[640px] rounded-tr-[16px] object-cover"
         />
-        <div className="bg-[#1C1C1C] w-full xl:w-[640px] rounded-bl-[16px] rounded-br-[16px] px-[20px] py-[32px]">
-        <div className='flex flex-col justify-center items-start gap-[24px]'>
-            <p className="text-[1.5rem] font-medium leading-[26.4px] text-[#AC4F47]">
-                02
-            </p>
-            <div className='flex flex-col gap-[12px]'>
-            <h3 className="text-[2rem] leading-[35.2px] font-medium text-white">
-                We Scout Top Talents
-            </h3>
-            <p className="text-[#FAFAFA] leading-[25.6px] text-[1rem] font-light">
-                Virtual Garden matches you with the best-fit virtual assistant based on your needs.
-            </p>
+        <div className="bg-[#1C1C1C] w-full lg:w-[500px] xl:w-[640px] rounded-bl-[16px] rounded-br-[16px] px-[20px] py-[32px]">
+            <div className='flex flex-col justify-center items-start gap-[24px]'>
+                <p className="text-[1.5rem] font-medium leading-[26.4px] text-[#AC4F47]">
+                    02
+                </p>
+                <div className='flex flex-col gap-[12px]'>
+                <h3 className="text-[2rem] leading-[35.2px] font-medium text-white">
+                    We Scout Top Talents
+                </h3>
+                <p className="text-[#FAFAFA] leading-[25.6px] text-[1rem] font-light">
+                    Virtual Garden matches you with the best-fit virtual assistant based on your needs.
+                </p>
+                </div>
+                <button className="border border-white rounded-full text-white w-[172px] h-[44px] py-[15px] px-[48px] gap-[8px] flex justify-center items-center text-[14px] leading-[14px] font-light">
+                    Get Started
+                </button>
             </div>
-            <button className="border border-white rounded-full text-white w-[172px] h-[44px] py-[15px] px-[48px] gap-[8px] flex justify-center items-center text-[14px] leading-[14px] font-light">
-                Get Started
-            </button>
-        </div>
         </div>
     </div>,
-    <div key='3' className='w-full xl:w-[640px] h-full xl:h-[720px] flex flex-col justify-center items-center'>
+    <div key='3' className='w-full lg:w-[500px] xl:w-[640px] h-full xl:h-[720px] flex flex-col justify-center items-center'>
         <Image
         src={womanTwo}
         width={640}
         height={440}
         alt='Image Three'
-        className="rounded-tl-[16px] rounded-tr-[16px] object-cover"
+        className="rounded-tl-[16px] w-full lg:w-[500px] xl:w-[640px] rounded-tr-[16px] object-cover"
         />
-        <div className="bg-[#1C1C1C] w-full xl:w-[640px] rounded-bl-[16px] rounded-br-[16px] px-[20px] py-[32px]">
-        <div className='flex flex-col justify-center items-start gap-[24px]'>
-            <p className="text-[1.5rem] font-medium leading-[26.4px] text-[#AC4F47]">
-                03
-            </p>
-            <div className='flex flex-col gap-[12px]'>
-            <h3 className="text-[2rem] leading-[35.2px] font-medium text-white">
-                Seamless Collaboration
-            </h3>
-            <p className="text-[#FAFAFA] leading-[25.6px] text-[1rem] font-light">
-                Work with your virtual assistant via our platform for efficient task management.
-            </p>
+        <div className="bg-[#1C1C1C] w-full lg:w-[500px] xl:w-[640px] rounded-bl-[16px] rounded-br-[16px] px-[20px] py-[32px]">
+            <div className='flex flex-col justify-center items-start gap-[24px]'>
+                <p className="text-[1.5rem] font-medium leading-[26.4px] text-[#AC4F47]">
+                    03
+                </p>
+                <div className='flex flex-col gap-[12px]'>
+                <h3 className="text-[2rem] leading-[35.2px] font-medium text-white">
+                    Seamless Collaboration
+                </h3>
+                <p className="text-[#FAFAFA] leading-[25.6px] text-[1rem] font-light">
+                    Work with your virtual assistant via our platform for efficient task management.
+                </p>
+                </div>
+                <button className="border border-white rounded-full text-white w-[172px] h-[44px] py-[15px] px-[48px] gap-[8px] flex justify-center items-center text-[14px] leading-[14px] font-light">
+                    Get Started
+                </button>
             </div>
-            <button className="border border-white rounded-full text-white w-[172px] h-[44px] py-[15px] px-[48px] gap-[8px] flex justify-center items-center text-[14px] leading-[14px] font-light">
-                Get Started
-            </button>
-        </div>
         </div>
     </div>,
-    <div key='4' className='w-full xl:w-[640px] h-full xl:h-[720px] flex flex-col justify-center items-center'>
+    <div key='4' className='w-full lg:w-[500px] xl:w-[640px] h-full xl:h-[720px] flex flex-col justify-center items-center'>
         <Image
         src={womanThree}
         width={640}
         height={440}
         alt='Image Four'
-        className="rounded-tl-[16px] w-full xl:w-[640px] rounded-tr-[16px] object-cover"
+        className="rounded-tl-[16px] w-full lg:w-[500px] xl:w-[640px] rounded-tr-[16px] object-cover"
         />
-        <div className="bg-[#1C1C1C] w-full md:w-[640px] rounded-bl-[16px] rounded-br-[16px] px-[20px] py-[32px]">
+        <div className="bg-[#1C1C1C] w-full lg:w-[500px] xl:w-[640px] rounded-bl-[16px] rounded-br-[16px] px-[20px] py-[32px]">
             <div className='flex flex-col justify-center items-start gap-[24px]'>
                 <p className="text-[1.5rem] font-medium leading-[26.4px] text-[#AC4F47]">
                     04
@@ -150,7 +150,7 @@ const CardCarousel = () => {
     }
 
   return (
-    <div className='w-full md:w-[1800px] xl:w-[2000px] gap-[32px] z-30'>
+    <div className='w-full xl:w-[2000px] gap-[32px] z-30 px-3'>
         <AliceCarousel
             items={items}
             autoPlay
@@ -161,9 +161,9 @@ const CardCarousel = () => {
             renderNextButton={renderNextButton}
             responsive={{
                 0: { items: 1 },
-                500: { items: 1 },
-                800: { items: 2 },
-                1024: { items: 3 },
+                768: { items: 1 },
+                1024: { items: 2 },
+                1280: { items: 3 },
             }}
         />
     </div>

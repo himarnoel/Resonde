@@ -57,8 +57,8 @@ const UniquesVAService = () => {
                     </p>
                 </div>
 
-                <div className='w-full xl:w-[1280px] 2xl:w-[1320px] bg-[#DCD7CFA3]/[64%] rounded-[24px] lg:h-[560px] flex justify-center items-center py-[24px] px-[32px]'>
-                    <div className='gap-[12px] w-full lg:w-[1266px] h-full lg:h-[384px] grid grid-cols-1 md:grid-cols-3 xl:grid-cols-4 justify-items-center'>
+                <div className='w-full xl:w-[1280px] 2xl:w-[1320px] bg-[#DCD7CFA3]/[64%] rounded-[24px] xl:h-[560px] flex justify-start xl:justify-center items-center py-[24px] px-[32px]'>
+                    <div className='gap-[12px] w-full lg:w-[1266px] xl:h-[384px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 justify-items-start xl:justify-items-center'>
                         {[{
                             name: "Roberta Fox",
                             role: "Customer Support",
@@ -77,7 +77,7 @@ const UniquesVAService = () => {
                             img: womanTwo,
                             timeZone: "Central African Time"
                         }].map((item, index) => (
-                            <div key={index} className='bg-[#FFFFFF] gap-[25.6px] flex flex-col justify-center items-start w-full md:w-[300px] h-full md:h-[384px] rounded-[12px] p-[24px]'>
+                            <div key={index} className='bg-[#FFFFFF] gap-[25.6px] flex flex-col justify-center items-start w-full xl:w-[300px] h-full md:h-[384px] rounded-[12px] p-[24px]'>
                                 <div className='gap-[4px] flex flex-col justify-center items-start'>
                                     <p className='text-[#767676] leading-[22.4px] text-[.875rem] font-light'>{item.timeZone}</p>
                                     <h1 className='text-[#121212] font-normal leading-[26.4px] text-[1.5rem]'>{item.name}</h1>
@@ -91,7 +91,7 @@ const UniquesVAService = () => {
                                 </div>
                             </div>
                         ))}
-                        <div className='bg-[#5B5858] gap-[25.6px] w-full md:w-[300px] h-full md:h-[384px] rounded-[12px] px-[24px] py-[32px] flex flex-col justify-between items-start'>
+                        <div className='bg-[#5B5858] gap-[25.6px] w-full xl:w-[300px] h-full md:h-[384px] rounded-[12px] px-[24px] py-[32px] flex flex-col justify-between items-start'>
                             <div className='flex justify-between items-center w-full'>
                                 <div className='gap-[4.5px] flex justify-center items-center'>
                                     <div class="relative flex justify-center items-center h-3 w-3">

@@ -49,8 +49,8 @@ const UniquesSKills = () => {
 
   return (
     <section className='bg-[#111111] w-full py-[50px] min-h-screen overflow-hidden relative'>
-      <div className='flex flex-col gap-y-[80px] justify-center items-start max-w-[1280px] mx-auto'>
-        <div className='px-3 flex flex-col justify-center items-start gap-[16px]'>
+      <div className='flex flex-col gap-y-[80px] justify-center items-center xl:items-start max-w-[1280px] mx-auto'>
+        <div className='px-3 flex flex-col justify-center items-center xl:items-start gap-[16px] text-center'>
           <h1 className='text-white w-full xl:w-[687px] font-semibold text-[3.5rem] leading-[61.6px]'>
             Unique Skills sets
           </h1>
