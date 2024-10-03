@@ -8,46 +8,46 @@ import { GoArrowLeft, GoArrowRight } from 'react-icons/go';
 const TestimonialDisc = () => {
   const items = [
     <div key='1' className='bg-white w-full lg:w-[400px] h-[480px] rounded-[16px] px-[20px] py-[48px]'>
-      <div className='flex flex-col justify-center items-start gap-[40px] w-full lg:w-[353px] h-full lg:h-[342px]'>
-        <p className='text-[#333333] font-light text-[1.5rem] leading-[33.6px]'>
+      <div className='flex flex-col justify-center items-start gap-[40px] w-full lg:w-[353px] h-full'>
+        <p className='text-[#333333] font-light h-full xl:h-[238px] sofiaProL text-[1.25rem] md:text-[1.5rem] leading-[34px]'>
           “Virtual Garden helped us find a brilliant web developer who completed our project  helped us find a brilliant web developer who completed our project on time and within on time and within budget!”
         </p>
-        <div className='w-[150px] flex flex-col justify-center items-start gap-[4px]'>
-          <h1 className='text-[#121212] text-[1.5rem] leading-[36px]'>Wade Warren</h1>
+        <div className='w-[200px] flex flex-col justify-center items-start gap-[4px]'>
+          <h1 className='text-[#121212] text-[1.25rem] leading-[36px] sofiaProM'>Wade Warren</h1>
           <p className='text-[#565656] text-base font-light'>Client</p>
         </div>
       </div>
     </div>,
     <div key='2' className='bg-white w-full lg:w-[400px] h-[480px] rounded-[16px] px-[20px] py-[48px]'>
-      <div className='flex flex-col justify-center items-start gap-[40px] w-full lg:w-[353px] h-full lg:h-[342px]'>
-        <p className='text-[#333333] font-light text-[1.5rem] leading-[33.6px]'>
+      <div className='flex flex-col justify-center items-start gap-[40px] w-full lg:w-[353px] h-full'>
+        <p className='text-[#333333] font-light h-full xl:h-[238px] sofiaProL text-[1.25rem] md:text-[1.5rem] leading-[34px]'>
           “I’ve gained international experience while expanding my skill set and earning extra income through Virtual Garden.”
         </p>
-        <div className='w-[150px] flex flex-col justify-center items-start gap-[4px]'>
-          <h1 className='text-[#121212] text-[1.5rem] leading-[36px]'>Kristin Watson</h1>
-          <p className='text-[#565656] text-base font-light'>V.A</p>
+        <div className='w-[200px] flex flex-col justify-center items-start gap-[4px]'>
+          <h1 className='text-[#121212] text-[1.25rem] leading-[36px] sofiaProM'>Kristin Watson</h1>
+          <p className='text-[#565656] text-base font-light sofiaProL'>V.A</p>
         </div>
       </div>
     </div>,
     <div key='3' className='bg-white w-full lg:w-[400px] h-[480px] rounded-[16px] px-[20px] py-[48px]'>
-      <div className='flex flex-col justify-center items-start gap-[40px] w-full lg:w-[353px] h-full lg:h-[342px]'>
-        <p className='text-[#333333] font-light text-[1.5rem] leading-[33.6px]'>
+      <div className='flex flex-col justify-center items-start gap-[40px] w-full lg:w-[353px] h-full'>
+        <p className='text-[#333333] font-light h-full xl:h-[238px] sofiaProL text-[1.25rem] md:text-[1.5rem] leading-[34px]'>
           “Virtual Garden helped us find a brilliant web developer who completed our project  helped us find a brilliant web developer who completed our project on time and within on time and within budget!”
         </p>
-        <div className='w-[150px] flex flex-col justify-center items-start gap-[4px]'>
-          <h1 className='text-[#121212] text-[1.5rem] leading-[36px]'>Cameron Williamson</h1>
-          <p className='text-[#565656] text-base font-light'>Client</p>
+        <div className='w-[200px] flex flex-col justify-center items-start gap-[4px]'>
+          <h1 className='text-[#121212] text-[1.25rem] leading-[36px] sofiaProM'>Cameron Williamson</h1>
+          <p className='text-[#565656] text-base font-light sofiaProL'>Client</p>
         </div>
       </div>
     </div>,
     <div key='4' className='bg-white w-full lg:w-[400px] h-[480px] rounded-[16px] px-[20px] py-[48px]'>
-      <div className='flex flex-col justify-center items-start gap-[40px] w-full lg:w-[353px] h-full lg:h-[342px]'>
-        <p className='text-[#333333] font-light text-[1.5rem] leading-[33.6px]'>
+      <div className='flex flex-col justify-center items-start gap-[40px] w-full lg:w-[353px] h-full'>
+        <p className='text-[#333333] font-light h-full xl:h-[238px] sofiaProL text-[1.25rem] md:text-[1.5rem] leading-[34px]'>
           “I’ve gained international experience while expanding my skill set and earning extra income through Virtual Garden.”
         </p>
-        <div className='w-[150px] flex flex-col justify-center items-start gap-[4px]'>
-          <h1 className='text-[#121212] text-[1.5rem] leading-[36px]'>Cody Fisher</h1>
-          <p className='text-[#565656] text-base font-light'>V.A</p>
+        <div className='w-[200px] flex flex-col justify-center items-start gap-[4px]'>
+          <h1 className='text-[#121212] text-[1.25rem] leading-[36px] sofiaProM'>Cody Fisher</h1>
+          <p className='text-[#565656] text-base font-light sofiaProL'>V.A</p>
         </div>
       </div>
     </div>,
@@ -55,14 +55,14 @@ const TestimonialDisc = () => {
 
 
   const renderPrevButton = () => (
-      <button className="cursor-pointer prev absolute z-40 bottom-[-10%] xl:top-[-38%] 2xl:top-[-40%] 2xl:left-[88%] xl:left-[85%] left-[5%] md:left-[55%] flex justify-center items-center border border-[#121212] w-[72px] h-[72px] rounded-full">
-          <GoArrowLeft className='text-[#121212] text-[2rem]' />
+      <button className="cursor-pointer prev absolute z-40 top-[-20%] md:top-[-38%] 2xl:top-[-40%] 2xl:left-[88%] xl:left-[85%] left-[1%] md:left-[55%] flex justify-center items-center border border-[#121212] w-[72px] h-[72px] rounded-full">
+        <GoArrowLeft className='text-[#121212] text-[2rem]' />
       </button>
   );
 
   const renderNextButton = () => (
-      <button className="cursor-pointer next absolute z-40 bottom-[-10%] xl:top-[-38%] 2xl:top-[-40%] xl:left-[94%] 2xl:left-[95%] left-[30%] md:left-[60%] flex justify-center items-center border border-[#121212] w-[72px] h-[72px] rounded-full">
-          <GoArrowRight className='text-[#121212] text-[2rem]' />
+      <button className="cursor-pointer next absolute z-40 top-[-20%] md:top-[-38%] 2xl:top-[-40%] xl:left-[94%] 2xl:left-[95%] left-[30%] md:left-[60%] flex justify-center items-center border border-[#121212] w-[72px] h-[72px] rounded-full">
+      <GoArrowRight className='text-[#121212] text-[2rem]' />
       </button>
   );
 

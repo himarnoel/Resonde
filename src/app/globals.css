@@ -61,4 +61,59 @@
   }
 }
 
-  
+
+
+@font-face {
+  font-family: 'SofiaProLight';
+  src: url('../../public/Sofia Pro Font/SofiaProLight.woff') format('woff');
+}
+
+.sofiaProL {
+  font-family: 'SofiaProLight';
+}
+
+
+
+@font-face {
+  font-family: 'SofiaProRegular';
+  src: url('../../public/Sofia Pro Font/SofiaProRegular.woff') format('woff');
+}
+
+.sofiaProR {
+  font-family: 'SofiaProRegular';
+}
+
+
+
+@font-face {
+  font-family: 'SofiaProMedium';
+  src: url('../../public/Sofia Pro Font/SofiaProMedium.woff') format('woff');
+}
+
+.sofiaProM {
+  font-family: 'SofiaProMedium';
+}
+
+
+@font-face {
+  font-family: 'SofiaProBold';
+  src: url('../../public/Sofia Pro Font/SofiaProBold.woff') format('woff');
+}
+
+.sofiaProBld {
+  font-family: 'SofiaProBold';
+}
+
+
+
+@font-face {
+  font-family: 'SofiaProBlack';
+  src: url('../../public/Sofia Pro Font/SofiaProBlack.woff') format('woff');
+}
+
+.sofiaProBlc {
+  font-family: 'SofiaProBlack';
+}
+
+
+
