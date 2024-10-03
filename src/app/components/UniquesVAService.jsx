@@ -48,7 +48,7 @@ const UniquesVAService = () => {
 
     return (
         <section className='w-full min-h-screen relative z-10 py-[100px] px-3 xl:px-0'>
-            <Image className='z-[5px] absolute top-0 left-0 min-h-screen' src={bg} alt='Background Image'></Image>
+            <Image className='z-[5px] absolute top-0 left-0 w-full min-h-screen' src={bg} alt='Background Image'></Image>
             <div className='max-w-[1280px] mx-auto px-3 xl:px-0 relative z-10 flex flex-col items-center gap-[6em]'>
                 <div className='w-full lg:w-[837px] flex flex-col justify-center items-center gap-[16px] text-center'>
                     <h1 className='font-semibold text-white leading-[61.6px] text-[3.5rem]'>Unique Virtual Assistant Services</h1>

@@ -6,6 +6,10 @@ import HowWeWork from "./components/HowWeWork";
 import UniquesVAService from "./components/UniquesVAService";
 import WhatYouGet from "./components/WhatYouGet";
 import UniquesSKills from "./components/UniquesSKills";
+import WorldClassTalents from "./components/WorldClassTalents";
+import World from "./components/World";
+import Testimonials from "./components/Testimonials";
+import BecomeVA from "./components/BecomeVA";
 
 export default function Home() {
   return (
@@ -13,9 +17,14 @@ export default function Home() {
       {/* <Loading/> */}
       <HomeHero/>
       <HowWeWork/>
-      <UniquesVAService/>
-      <WhatYouGet/>
       <UniquesSKills/>
+      <WorldClassTalents/>
+      <World/>
+      <Testimonials/>
+      <BecomeVA/>
+      {/* <UniquesVAService/>
+      <WhatYouGet/>
+       */}
     </main>
   );
 }
