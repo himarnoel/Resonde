@@ -28,7 +28,7 @@ const Navbar = () => {
   }, [path]);
 
   return (
-    <nav style={{ backgroundColor: bgColor }} className='px-[80px] py-[20px] h-[88px] sticky top-0 w-full z-50 border-b-[.3px] border-b-[#445c4d]'>
+    <nav style={{ backgroundColor: bgColor }} className='px-[24px] lg:px-[80px] py-[20px] lg:py-[20px] h-[80px] lg:h-[88px] sticky top-0 w-full z-50 border-b-[.3px] border-b-[#445c4d]'>
       <div className='max-w-[1280px] mx-auto flex justify-between items-center gap-6'>
         <Link href={`/`} className='flex justify-center items-center gap-[8px]'>
           <Image width={32} height={32} className='object-cover' src={logo} alt='Virtual Garden Logo' />

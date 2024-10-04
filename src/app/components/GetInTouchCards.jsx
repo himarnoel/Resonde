@@ -37,7 +37,7 @@ const GetInTouchCards = () => {
     <div className='grid grid-cols-1 lg:grid-cols-2 gap-y-[25px] gap-x-[40px] justify-items-center'>
         {
             cards.map((card, index) => (
-                <div className='border border-[#CBD7BA] bg-[#F3F8EE] w-full xl:w-[600px] xl:h-[200px] rounded-[16px] py-[35px] px-[39px] flex flex-col justify-center items-start gap-[16px]' key={index}>
+                <div className='border border-[#CBD7BA] bg-[#F3F8EE] w-full xl:w-[600px] h-[200px] rounded-[16px] py-[35px] px-[39px] flex flex-col justify-center items-start gap-[16px]' key={index}>
                     <h1 className='text-[#333333] text-[1.5rem] leading-[30px] font-medium sofiaProM'>{card.title}</h1>
                     <p className='text-base text-[#828282] font-normal sofiaProL'>{card.desc}</p>
                     {
