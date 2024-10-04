@@ -19,6 +19,11 @@ const Navbar = () => {
         setColor('white');
         setBorder('0.6px solid #FFFFFF');
         break;
+      case '/our-services':
+        setBgColor('white');
+        setColor('#000000');
+        setBorder('0.6px solid #1E3E2A');
+        break;
       default:
         setBgColor('white');
         setColor('#000000');
@@ -35,9 +40,13 @@ const Navbar = () => {
           <h1 style={{ color: color }} className='text-[2rem] font-medium sofiaProM leading-[35.2px]'>Virtual Garden</h1>
         </Link>
         <ul className='hidden lg:flex justify-between items-center gap-10'>
-          <li style={{ color: color }} className='font-light sofiaProL text-[1rem] leading-[25.6px]'>How it works</li>
-          <li style={{ color: color }} className='font-light sofiaProL text-[1rem] leading-[25.6px]'>About us</li>
-          <li style={{ color: color }} className='font-light sofiaProL text-[1rem] leading-[25.6px]'>Our Services</li>
+
+          <Link href={`/how-it-works`} style={{ color: color }} className='cursor-pointer font-light sofiaProL text-[1rem] leading-[25.6px]'>How it works</Link>
+
+          <Link href={'/about-us'} style={{ color: color }} className='cursor-pointer font-light sofiaProL text-[1rem] leading-[25.6px]'>About us</Link>
+
+          <Link href={`/our-services`} style={{ color: color }} className='cursor-pointer font-light sofiaProL text-[1rem] leading-[25.6px]'>Our Services</Link>
+
         </ul>
         <Link href={`/contact-us`} style={{ color: color, border: border }} className='hidden bg-transparent lg:flex justify-center items-center h-[48px] w-[167px] font-normal sofiaProR text-[.875rem] leading-[22.4px] py-[13px] px-[48px] rounded-full'>Contact us</Link>
       </div>
