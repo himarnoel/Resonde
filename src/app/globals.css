@@ -117,3 +117,11 @@
 
 
 
+@font-face {
+  font-family: 'OggRegular';
+  src: url('../../public/fonts/Ogg-Bold-BF646c18fc530f4.ttf') format('woff');
+}
+
+.oRegular {
+  font-family: 'OggRegular';
+}
