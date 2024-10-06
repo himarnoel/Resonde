@@ -10,7 +10,7 @@ const HowItWorkHero = () => {
         <div className='max-w-[1248px] mx-auto flex flex-col justify-center items-center gap-[120px] min-h-screen'>
             <div className='w-full xl:w-[795px] flex flex-col justify-center items-center gap-[40px] text-center'>
                 <h1 className='text-white leading-[56px] text-[3.5rem] font-semibold sofiaProBld'>How Virtual Garden Brings the Best Talent to You</h1>
-                <p className='text-[#F1F1F1] text-[1.25rem] leading-[30px] font-light sofiaProL'>"From your request to project completion, we make collaboration easy and seamless."</p>
+                <p className='text-[#F1F1F1] text-[1.25rem] leading-[30px] font-light sofiaProL'>&qout;From your request to project completion, we make collaboration easy and seamless.&quot;</p>
             </div>
             <div className='w-full h-full'>
               <TestimonialCardTwo/>

@@ -16,7 +16,7 @@ const TestimonialCardTwo = () => {
                 <p className='text-[#58575A] leading-[21px] text-[14px] font-normal sofiaProL'>What our customers are saying</p>
             </div>
             <h1 className='text-center oRegular text-[#1E3E2A] font-normal sofiaProL text-[3rem] leading-[52.8px] w-full xl:w-[889px] mx-auto'>
-                "Virtual Garden has revolutionized the way we work. It's saved us so much time and has increased our team's productivity by 30%!"
+                &quot;Virtual Garden has revolutionized the way we work. It&apos;s saved us so much time and has increased our team&apos;s productivity by 30%!&quot;
             </h1>
             <div className='w-full mx-auto flex flex-col justify-center items-center text-center gap-[4px]'>
                 <h2 className='text-[1.125rem] font-normal sofiaProR text-[#58575A]'>Rachel</h2>
