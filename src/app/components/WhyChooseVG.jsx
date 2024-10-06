@@ -12,7 +12,7 @@ const WhyChooseVG = () => {
     <section className='bg-white min-h-screen w-full'>
         <div className='bg-[#002C15] relative z-10 min-h-screen w-full rounded-tl-[24px] lg:rounded-tl-[72px] rounded-tr-[24px] lg:rounded-tr-[72px] flex flex-col justify-center items-center py-[100px] px-[24px] xl:px-[80px] gap-[50px] md:gap-[120px]'>
 
-            <h1 className='leading-[35.2px] md:leading-[61.6px] text-white font-semibold sofiaProBld text-[32px] md:text-[3.5rem] text-center'>Why Choose Virtual Garden?"</h1>
+            <h1 className='leading-[35.2px] md:leading-[61.6px] text-white font-semibold sofiaProBld text-[32px] md:text-[3.5rem] text-center'>Why Choose Virtual Garden?</h1>
             <div className='lg:max-w-[1380px] xl:max-w-[1280px] mx-auto flex flex-col justify-center items-center gap-[40px] lg:gap-[80px]'>
 
                 <div className='bg-[#1E3E2A] border border-[#275037] w-[328px] sm:w-full 2xl:w-[1280px] h-[440px] md:h-[600px] rounded-[16px] md:rounded-[24px] relative overflow-hidden py-[50px] md:py-[100px] px-[16px] lg:px-[32px] flex flex-col xl:flex-row gap-[16px]'>
