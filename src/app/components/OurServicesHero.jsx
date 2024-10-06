@@ -45,14 +45,14 @@ const OurServicesHero = () => {
     ];
 
   return (
-    <section className='bg-[#F5F5F5] w-full min-h-screen px-[24px] xl:px-[36px] py-[100px] flex justify-center items-center'>
+    <section className='bg-[#F5F5F5] w-full min-h-screen px-[24px] xl:px-[36px] py-[100px] flex justify-center items-center overflow-hidden'>
         <div className='max-w-[1368px] mx-auto flex flex-col justify-center items-center gap-[120px]'>
             <div className='flex flex-col justify-center items-center text-center w-[609px] gap-[16px]'>
-                <h1 className='sm:w-[285px] lg:w-auto text-[#121212] text-[2.5rem] md:text-[4rem] leading-[48px] md:leading-[64.64px] font-semibold sofiaProR'>Your Virtual Assistant for Every Need</h1>
+                <h1 className='sm:w-[285px] md:w-auto text-[#121212] text-[2.5rem] md:text-[4rem] leading-[48px] md:leading-[64.64px] font-semibold sofiaProR'>Your Virtual Assistant for Every Need</h1>
                 <p className='text-[#333333] leading-[30px] font-normal sofiaProL text-[1.25rem]'>&quot;Discover Our Comprehensive Range of Services&quot;</p>
                 <button className='w-[254px] py-[13px] text-[#D0EA50] font-light sofiaProL leading-[22.4px] text-[.875rem] bg-[#002C15] gap-[8px] rounded-full h-[48px]'>Find Your Virtual Assistant</button>
             </div>
-            <div className='max-w-[1288px] mx-auto justify-items-center grid grid-cols-1 sm:grid-cols-4 lg:grid-cols-3 xl:grid-cols-4 gap-[24px] sm:gap-[3.6px] lg:gap-[24px]'>
+            <div className='xl:max-w-[1288px] mx-auto justify-items-center grid grid-cols-4 gap-[3.6px] md:gap-[24px]'>
                 {
                     cards.map((card, index) => (
                         // <div key={index}>
