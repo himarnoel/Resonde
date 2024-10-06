@@ -1,6 +1,6 @@
 import React from 'react'
-import obj from '../../../public/home/Virtual Garden Background Texture.svg';
-import resObj from '../../../public/home/Background texture.svg';
+import obj from '../../../public/privacy/Virtual Garden Background Texture.svg';
+import resObj from '../../../public/privacy/Virtual Garden Background Texture (1).svg';
 import Image from 'next/image';
 
 const PrivacyPolicyHero = () => {
@@ -10,8 +10,8 @@ const PrivacyPolicyHero = () => {
             <h1 className='text-[32px] md:text-[4rem] text-white leading-[32px] md:leading-[64px] font-bold sofiaProBld'>Privacy Policy</h1>
             <p className='text-[#C0C0BF] leading-[27px] text-[1.125rem] font-light sofiaProL'>Last updated: June 23, 2024</p>
         </div>
-        <Image src={obj} alt='Object' className='hidden xl:flex h-[600px] absolute z-[1px] top-0'></Image>
-        <Image src={resObj} alt='Object' className='flex xl:hidden h-[200px] absolute z-[1px] top-0 left-0 right-0 w-full'></Image>
+        <Image src={obj} alt='Object' className='hidden xl:flex h-[600px] absolute z-[1px] top-0 left-0 right-0 bottom-0'></Image>
+        <Image src={resObj} alt='Object' className='flex xl:hidden h-[200px] absolute z-[1px] top-0 left-0 right-0 bottom-0 w-full'></Image>
     </section>
   )
 }
