@@ -24,6 +24,26 @@ const Navbar = () => {
         setColor('#000000');
         setBorder('0.6px solid #1E3E2A');
         break;
+      case '/about-us':
+        setBgColor('white');
+        setColor('#000000');
+        setBorder('0.6px solid #1E3E2A');
+        break;
+      case '/contact-us':
+        setBgColor('white');
+        setColor('#000000');
+        setBorder('0.6px solid #1E3E2A');
+        break;
+      case '/privacy-policy':
+        setBgColor('white');
+        setColor('#000000');
+        setBorder('0.6px solid #1E3E2A');
+        break;
+      case '/how-it-works': 
+        setBgColor('#1E3E2A');
+        setColor('white');
+        setBorder('0.6px solid #FFFFFF');
+        break;
       default:
         setBgColor('white');
         setColor('#000000');
