@@ -50,7 +50,7 @@ const Navbar = () => {
         <div className='max-w-[1280px] mx-auto flex justify-between items-center gap-6'>
           <Link href={`/`} className='flex justify-center items-center gap-[8px]'>
             <Image width={32} height={32} className='object-cover' src={logo} alt='Virtual Garden Logo' />
-            <h1 style={{ color: color }} className='text-[2rem] font-medium sofiaProM leading-[35.2px]'>Virtual Garden</h1>
+            <h1 style={{ color: color }} className='hidden sm:flex text-[2rem] font-medium sofiaProM leading-[35.2px]'>Virtual Garden</h1>
           </Link>
           <ul className='hidden lg:flex justify-between items-center gap-10'>
 
@@ -78,18 +78,18 @@ const Navbar = () => {
       {/* Menu */}
       {
         openMenu ? (
-          <div className='bg-white w-[375px] right-0 h-screen fixed top-[9.3%] z-[999] px-[24px] py-[36px] flex flex-col justify-start items-start gap-[64px] duration-300'>
+          <div className='bg-white w-full sm:w-[375px] right-0 h-screen fixed top-[9.3%] z-[999] px-[24px] py-[36px] flex lg:hidden flex-col justify-start items-start gap-[64px] duration-300'>
             <Link className='text-[#333333] text-[1rem] font-light leading-[25.6px] sofiaProL' href={`/how-it-works`}>How it works</Link>
             <Link className='text-[#333333] text-[1rem] font-light leading-[25.6px] sofiaProL' href={`/about-us`}>About us</Link>
             <Link className='text-[#333333] text-[1rem] font-light leading-[25.6px] sofiaProL' href={`/our-services`}>Our Services</Link>
-            <Link href={`/contact-us`} className='border border-[#1E3E2A] py-[15.5px] rounded-full px-[40px] text-[#1E3E2A] leading-[16.8px] font-normal text-[14px] sofiaProL flex justify-center items-center w-[328px] h-[64px]'>Contact us</Link>
+            <Link href={`/contact-us`} className='border border-[#1E3E2A] py-[15.5px] rounded-full px-[40px] text-[#1E3E2A] leading-[16.8px] font-normal text-[14px] sofiaProL flex justify-center items-center w-full md:w-[328px] h-[64px]'>Contact us</Link>
           </div>
         ) : (
-          <div className='bg-white w-[375px] right-[-100%] h-screen fixed top-[9.3%] z-[999] px-[24px] py-[36px] flex flex-col justify-start items-start gap-[64px] duration-300'>
+          <div className='bg-white w-full sm:w-[375px] right-[-100%] h-screen fixed top-[9.3%] z-[999] px-[24px] py-[36px] flex lg:hidden flex-col justify-start items-start gap-[64px] duration-300'>
             <Link className='text-[#333333] text-[1rem] font-light leading-[25.6px] sofiaProL' href={`/how-it-works`}>How it works</Link>
             <Link className='text-[#333333] text-[1rem] font-light leading-[25.6px] sofiaProL' href={`/about-us`}>About us</Link>
             <Link className='text-[#333333] text-[1rem] font-light leading-[25.6px] sofiaProL' href={`/our-services`}>Our Services</Link>
-            <Link href={`/contact-us`} className='border border-[#1E3E2A] py-[15.5px] rounded-full px-[40px] text-[#1E3E2A] leading-[16.8px] font-normal text-[14px] sofiaProL flex justify-center items-center w-[328px] h-[64px]'>Contact us</Link>
+            <Link href={`/contact-us`} className='border border-[#1E3E2A] py-[15.5px] rounded-full px-[40px] text-[#1E3E2A] leading-[16.8px] font-normal text-[14px] sofiaProL flex justify-center items-center w-full md:w-[328px] h-[64px]'>Contact us</Link>
           </div>
         )
       }
