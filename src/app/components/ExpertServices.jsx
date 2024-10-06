@@ -50,7 +50,7 @@ const ExpertServices = () => {
     ]
   return (
     <section className='bg-[#F5F5F5] w-full min-h-screen'>
-        <div className='bg-[#002C15] rounded-tl-[72px] rounded-tr-[72px] py-[120px] lg:py-[240px] px-[24px] xl:px-[80px] w-full min-h-screen flex flex-col gap-[120px]'>
+        <div className='bg-[#002C15] rounded-tl-[24px] lg:rounded-tl-[72px] rounded-tr-[24px] lg:rounded-tr-[72px] py-[120px] lg:py-[240px] px-[24px] xl:px-[80px] w-full min-h-screen flex flex-col gap-[120px]'>
             <div className='max-w-[1129px] mx-auto flex flex-col justify-center items-start gap-[16px]'>
                 <h1 className='font-semibold sofiaProBld leading-[35.2px] lg:leading-[70.4px] text-[2rem] lg:text-[4rem] text-white'>Expert Services Tailored to Your Needs</h1>
                 <p className='text-[#F1F1F1] leading-[27px] text-[1.125rem] font-light sofiaProL'>Discover what makes us the go-to platform for sourcing top-notch virtual assistants.</p>
