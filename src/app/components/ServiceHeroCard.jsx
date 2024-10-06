@@ -39,7 +39,7 @@ const ServiceHeroCard = ({ card }) => {
             src={card.bg}
             alt={card.title}
           />
-          <div className="w-full sm:w-[71.54px] md:w-[264.96px] h-[40px] sm:h-[54px] py-[4px] sm:py-[6px] px-[8px] sm:px-[12px] rounded-full bg-[#F4F4F4] relative z-10 flex gap-[10px] sm:gap-[18px]">
+          <div className="w-full sm:w-[71.54px] md:w-[264.96px] h-[40px] sm:h-[54px] py-[4px] sm:py-[6px] px-[6px] sm:px-[12px] rounded-full bg-[#F4F4F4] relative z-10 flex gap-[10px] sm:gap-[18px]">
             <Image
               width={42}
               height={42}
