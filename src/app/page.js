@@ -1,10 +1,9 @@
-import Image from "next/image";
+'use client'
+
+import React, { useState } from "react";
 import Loading from "./components/Loading";
-import Navbar from "./components/Navbar";
 import HomeHero from "./components/HomeHero";
 import HowWeWork from "./components/HowWeWork";
-import UniquesVAService from "./components/UniquesVAService";
-import WhatYouGet from "./components/WhatYouGet";
 import UniquesSKills from "./components/UniquesSKills";
 import WorldClassTalents from "./components/WorldClassTalents";
 import World from "./components/World";
@@ -12,19 +11,26 @@ import Testimonials from "./components/Testimonials";
 import BecomeVA from "./components/BecomeVA";
 
 export default function Home() {
+  const [isLoadingComplete, setIsLoadingComplete] = useState(false);
+
+  const handleLoadingComplete = () => {
+    setIsLoadingComplete(true);
+  };
+
   return (
     <main className="relative">
-      {/* <Loading/> */}
-      <HomeHero/>
-      <HowWeWork/>
-      <UniquesSKills/>
-      <WorldClassTalents/>
-      <World/>
-      <Testimonials/>
-      <BecomeVA/>
-      {/* <UniquesVAService/>
-      <WhatYouGet/>
-       */}
+      {!isLoadingComplete && <Loading onLoadingComplete={handleLoadingComplete} />}
+      {isLoadingComplete && (
+        <>
+          <HomeHero />
+          <HowWeWork />
+          <UniquesSKills />
+          <WorldClassTalents />
+          <World />
+          <Testimonials />
+          <BecomeVA />
+        </>
+      )}
     </main>
   );
 }

@@ -7,45 +7,45 @@ import { GoArrowLeft, GoArrowRight } from 'react-icons/go';
 
 const TestimonialDisc = () => {
   const items = [
-    <div key='1' className='bg-white w-full sm:w-[295px] md:w-full lg:w-[400px] h-[480px] rounded-[16px] px-[20px] py-[48px]'>
-      <div className='flex flex-col justify-center items-start gap-[40px] w-full lg:w-[353px] h-full'>
+    <div key='1' className='bg-white w-full sm:w-[295px] md:w-full lg:w-[400px] 2xl:w-[500px] h-[480px] rounded-[16px] px-[20px] py-[48px]'>
+      <div className='flex flex-col justify-center items-start 2xl:items-center gap-[40px] w-full lg:w-[353px] 2xl:w-full h-full'>
         <p className='text-[#333333] font-light h-full xl:h-[238px] sofiaProL text-[1.25rem] md:text-[1.5rem] leading-[34px]'>
           “Virtual Garden helped us find a brilliant web developer who completed our project  helped us find a brilliant web developer who completed our project on time and within on time and within budget!”
         </p>
-        <div className='w-[200px] flex flex-col justify-center items-start gap-[4px]'>
+        <div className='w-[200px] 2xl:w-full flex flex-col justify-center items-start gap-[4px]'>
           <h1 className='text-[#121212] text-[1.25rem] leading-[36px] sofiaProM'>Wade Warren</h1>
           <p className='text-[#565656] text-base font-light'>Client</p>
         </div>
       </div>
     </div>,
-    <div key='2' className='bg-white w-full sm:w-[295px] md:w-full lg:w-[400px] h-[480px] rounded-[16px] px-[20px] py-[48px]'>
-      <div className='flex flex-col justify-center items-start gap-[40px] w-full lg:w-[353px] h-full'>
+    <div key='2' className='bg-white w-full sm:w-[295px] md:w-full lg:w-[400px] 2xl:w-[500px] h-[480px] rounded-[16px] px-[20px] py-[48px]'>
+      <div className='flex flex-col justify-center items-start 2xl:items-center gap-[40px] w-full lg:w-[353px] 2xl:w-full h-full'>
         <p className='text-[#333333] font-light h-full xl:h-[238px] sofiaProL text-[1.25rem] md:text-[1.5rem] leading-[34px]'>
           “I’ve gained international experience while expanding my skill set and earning extra income through Virtual Garden.”
         </p>
-        <div className='w-[200px] flex flex-col justify-center items-start gap-[4px]'>
+        <div className='w-[200px] 2xl:w-full flex flex-col justify-center items-start gap-[4px]'>
           <h1 className='text-[#121212] text-[1.25rem] leading-[36px] sofiaProM'>Kristin Watson</h1>
           <p className='text-[#565656] text-base font-light sofiaProL'>V.A</p>
         </div>
       </div>
     </div>,
-    <div key='3' className='bg-white w-full sm:w-[295px] md:w-full lg:w-[400px] h-[480px] rounded-[16px] px-[20px] py-[48px]'>
-      <div className='flex flex-col justify-center items-start gap-[40px] w-full lg:w-[353px] h-full'>
+    <div key='3' className='bg-white w-full sm:w-[295px] md:w-full lg:w-[400px] 2xl:w-[500px] h-[480px] rounded-[16px] px-[20px] py-[48px]'>
+      <div className='flex flex-col justify-center items-start 2xl:items-center gap-[40px] w-full lg:w-[353px] 2xl:w-full h-full'>
         <p className='text-[#333333] font-light h-full xl:h-[238px] sofiaProL text-[1.25rem] md:text-[1.5rem] leading-[34px]'>
           “Virtual Garden helped us find a brilliant web developer who completed our project  helped us find a brilliant web developer who completed our project on time and within on time and within budget!”
         </p>
-        <div className='w-[200px] flex flex-col justify-center items-start gap-[4px]'>
+        <div className='w-[200px] 2xl:w-full flex flex-col justify-center items-start gap-[4px]'>
           <h1 className='text-[#121212] text-[1.25rem] leading-[36px] sofiaProM'>Cameron Williamson</h1>
           <p className='text-[#565656] text-base font-light sofiaProL'>Client</p>
         </div>
       </div>
     </div>,
-    <div key='4' className='bg-white w-full sm:w-[295px] md:w-full lg:w-[400px] h-[480px] rounded-[16px] px-[20px] py-[48px]'>
-      <div className='flex flex-col justify-center items-start gap-[40px] w-full lg:w-[353px] h-full'>
+    <div key='4' className='bg-white w-full sm:w-[295px] md:w-full lg:w-[400px] 2xl:w-[500px] h-[480px] rounded-[16px] px-[20px] py-[48px]'>
+      <div className='flex flex-col justify-center items-start 2xl:items-center gap-[40px] w-full lg:w-[353px] 2xl:w-full h-full'>
         <p className='text-[#333333] font-light h-full xl:h-[238px] sofiaProL text-[1.25rem] md:text-[1.5rem] leading-[34px]'>
           “I’ve gained international experience while expanding my skill set and earning extra income through Virtual Garden.”
         </p>
-        <div className='w-[200px] flex flex-col justify-center items-start gap-[4px]'>
+        <div className='w-[200px] 2xl:w-full flex flex-col justify-center items-start gap-[4px]'>
           <h1 className='text-[#121212] text-[1.25rem] leading-[36px] sofiaProM'>Cody Fisher</h1>
           <p className='text-[#565656] text-base font-light sofiaProL'>V.A</p>
         </div>
