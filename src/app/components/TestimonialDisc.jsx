@@ -78,11 +78,12 @@ const TestimonialDisc = () => {
   }
 
   return (
-    <div className='w-full z-30 px-3 gap-[27px]'>
+    <div className='w-full z-30 px-3 gap-[27px] xl:gap-[32px]'>
       <AliceCarousel
         items={items}
         autoPlay
         autoPlayInterval={3000}
+        
         infinite
         disableDotsControls
         renderPrevButton={renderPrevButton}

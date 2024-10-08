@@ -19,9 +19,11 @@ export default function Home() {
 
   return (
     <main className="relative">
-      {!isLoadingComplete && <Loading onLoadingComplete={handleLoadingComplete} />}
+      {/* {!isLoadingComplete && <Loading onLoadingComplete={handleLoadingComplete} />}
       {isLoadingComplete && (
-        <>
+       
+      )} */}
+       <>
           <HomeHero />
           <HowWeWork />
           <UniquesSKills />
@@ -30,7 +32,6 @@ export default function Home() {
           <Testimonials />
           <BecomeVA />
         </>
-      )}
     </main>
   );
 }
