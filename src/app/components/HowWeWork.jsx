@@ -129,9 +129,9 @@ const HowWeWork = () => {
             <div
               key={index}
               ref={(el) => (stepsRef.current[index] = el)}
-              className={`w-full md:max-w-[1200px] mx-auto gap-[80px] h-full flex flex-col${
-                index % 2 === 0 ? "-reverse" : ""
-              } lg:flex-row justify-between items-center`}
+              className={`w-full md:max-w-[1200px] mx-auto gap-[80px] h-full flex flex-col ${
+                index % 2 === 0 ? "lg:flex-row" : "lg:flex-row-reverse"
+              }   justify-between items-center`}
             >
               <div
                 className={`flex flex-col gap-[24px] w-full lg:w-[505px] step-content`}
