@@ -109,7 +109,7 @@ const ExpertServices = () => {
         y: 0,
         scale: 1,
         duration: 0.8,
-        stagger: 0.2,
+        stagger: 0.4,
         scrollTrigger: {
           trigger: cardsRef.current,
           start: "top 80%",
