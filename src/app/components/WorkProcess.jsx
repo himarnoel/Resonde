@@ -4,10 +4,10 @@ import React, { useRef, useEffect } from "react";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import img from "../../../public/how-it-works/process/Virtual Garden Resonode Photo.svg";
-import img2 from "../../../public/how-it-works/process/Businesswoman at computer (2).svg";
-import img3 from "../../../public/how-it-works/process/Man in cafe (2).svg";
-import img4 from "../../../public/how-it-works/process/Businesswoman with Tablet (2).svg";
+import img from "../../../public/how-it-works/process/img1.png";
+import img2 from "../../../public/how-it-works/process/img2.png";
+import img3 from "../../../public/how-it-works/process/img3.png";
+import img4 from "../../../public/how-it-works/process/img4.png";
 
 gsap.registerPlugin(ScrollTrigger);
 

@@ -4,7 +4,7 @@ import { useGSAP } from "@gsap/react";
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import Image from 'next/image';
-import grid from '../../../public/home/Virtual Garden Frame 114.svg';
+import grid from '../../../public/home/collage.png';
 
 gsap.registerPlugin(ScrollTrigger);
 

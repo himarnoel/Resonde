@@ -7,7 +7,7 @@ const ServiceHeroCard = ({ card }) => {
       {card.id === 4 ? (
         <div
           style={{ backgroundColor: card.bg }}
-          className="w-full sm:w-[82.08px] lg:w-[304px] h-[178px] lg:h-[360px] rounded-[6.48px] md:rounded-[20px] flex flex-col justify-between items-start gap-[10px] p-[8px] sm:p-[15px] relative"
+          className="w-full sm:w-[82.08px] lg:hover:scale-105 duration-500 ease-in-out lg:w-[304px] h-[178px] lg:h-[360px] rounded-[6.48px] md:rounded-[20px] flex flex-col justify-between items-start gap-[10px] p-[8px] sm:p-[15px] relative"
         >
           <Image
             width={138.24}

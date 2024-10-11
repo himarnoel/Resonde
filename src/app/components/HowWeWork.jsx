@@ -5,10 +5,10 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 // Import your images here
-import img from "../../../public/home/work/Virtual Garden Resonode Photo.svg";
-import img2 from "../../../public/home/work/Businesswoman at computer (2).svg";
-import img3 from "../../../public/home/work/Man in cafe (2).svg";
-import img4 from "../../../public/home/work/Businesswoman with Tablet (2).svg";
+import img from "../../../public/home/work/img1.png";
+import img2 from "../../../public/home/work/img2.png";
+import img3 from "../../../public/home/work/img3.png";
+import img4 from "../../../public/home/work/img4.png";
 
 // Register ScrollTrigger plugin
 gsap.registerPlugin(ScrollTrigger);

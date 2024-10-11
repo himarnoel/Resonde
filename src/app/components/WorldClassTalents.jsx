@@ -3,7 +3,7 @@ import React, { useRef } from 'react'
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import talents from '../../../public/home/Virtual Garden Resonode (1).svg';
+import talents from '../../../public/home/talents.png';
 
 // Register ScrollTrigger plugin
 gsap.registerPlugin(ScrollTrigger);

@@ -10,10 +10,10 @@ import 'react-alice-carousel/lib/alice-carousel.css';
 // import womanThree from '../../../public/home/work/Businesswoman with Tablet (1).svg';
 
 
-import woman from '../../../public/home/work/Virtual Garden Resonode Photo.svg'
-import womanTwo from '../../../public/home/work/Businesswoman at computer (2).svg'
-import man from '../../../public/home/work/Man in cafe (2).svg'
-import womanThree from '../../../public/home/work/Businesswoman with Tablet (2).svg'
+import woman from '../../../public/home/work/img1.png'
+import womanTwo from '../../../public/home/work/img1.png'
+import man from '../../../public/home/work/img1.png'
+import womanThree from '../../../public/home/work/img1.png'
 import { GoArrowRight } from "react-icons/go";
 import { GoArrowLeft } from "react-icons/go";
 

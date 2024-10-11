@@ -1,10 +1,9 @@
 "use client";
-
 import React from "react";
 import grid from "../../../public/home/Virtual Garden Grid Lines.svg";
 import Image from "next/image";
-import img from "../../../public/home/Frame 1618873226 1.svg";
-import resImg from "../../../public/home/Frame 1618873226 1 2.svg";
+import img from "../../../public/home/Frame 1618873226 1.png";
+import resImg from "../../../public/home/Frame 1618873226 1 2.png";
 import { animationPositiveYAxis, opacityAnimation } from "../utils/gsapLogic";
 
 const HomeHero = () => {
