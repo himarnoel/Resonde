@@ -11,8 +11,8 @@ const Navbar = () => {
 
   const [bgColor, setBgColor] = React.useState("");
   const [openMenu, setOpenMenu] = React.useState(false);
-  const [color, setColor] = React.useState("");
-  const [border, setBorder] = React.useState("");
+  const [color, setColor] = React.useState("white");
+  const [border, setBorder] = React.useState("0px solid #FFFFFF");
 
   React.useEffect(() => {
     bgOver(path);
@@ -113,8 +113,8 @@ const Navbar = () => {
           </ul>
           <Link
             href={`/contact-us`}
-            style={{ color: color, border: border }}
-            className="hidden bg-transparent lg:flex justify-center items-center h-[48px] w-[167px] font-normal sofiaProR text-[.875rem] leading-[22.4px] py-[13px] px-[48px] rounded-full"
+            style={{ color: color }}
+            className="hidden bg-transparent border border-white lg:flex justify-center items-center h-[48px] w-[167px] font-normal sofiaProR text-[.875rem] leading-[22.4px] py-[13px] px-[48px] rounded-full"
           >
             Contact us
           </Link>
