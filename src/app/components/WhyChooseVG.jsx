@@ -3,7 +3,7 @@ import Image from "next/image";
 import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import map from "../../../public/about-us/why/Virtual Garden Resonode.svg";
+import map from "../../../public/about-us/why/map.png";
 import resMap from "../../../public/about-us/why/Virtual Garden Resonode 2.svg";
 import coin from "../../../public/about-us/why/Virtual Garden Resonode (1).svg";
 import resCoin from "../../../public/about-us/why/Virtual Garden Resonode (1) 2.svg";

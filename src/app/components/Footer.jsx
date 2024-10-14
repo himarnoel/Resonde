@@ -33,8 +33,8 @@ const Footer = () => {
         duration: 1,
         scrollTrigger: {
           trigger: footer,
-          start: 'top bottom',
-          end: 'bottom bottom',
+          start: 'top 80%',
+ 
           toggleActions: 'play none none reverse'
         }
       }
@@ -49,8 +49,8 @@ const Footer = () => {
         delay: 0.2,
         scrollTrigger: {
           trigger: footer,
-          start: 'top bottom',
-          end: 'bottom bottom',
+          start: 'top 80%',
+     
           toggleActions: 'play none none reverse'
         }
       }
@@ -65,8 +65,8 @@ const Footer = () => {
         stagger: 0.1,
         scrollTrigger: {
           trigger: footer,
-          start: 'top bottom',
-          end: 'bottom bottom',
+          start: 'top 80%',
+         
           toggleActions: 'play none none reverse'
         }
       }
@@ -81,8 +81,8 @@ const Footer = () => {
         delay: 0.5,
         scrollTrigger: {
           trigger: footer,
-          start: 'top bottom',
-          end: 'bottom bottom',
+          start: 'top 80%',
+        
           toggleActions: 'play none none reverse'
         }
       }
