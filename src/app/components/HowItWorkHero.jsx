@@ -50,11 +50,11 @@ const HowItWorkHero = () => {
   }, { scope: sectionRef })
 
   return (
-    <section ref={sectionRef} className='min-h-screen bg-[#1E3E2A] w-full relative py-[100px] px-[24px] xl:px-[32px] overflow-hidden'>
+    <section ref={sectionRef} className='min-h-screen bg-[#1E3E2A] w-full relative px-[24px]   py-[48px] lg:py-[100px] lg:px-[24px] xl:px-[32px] overflow-hidden'>
       <div className='max-w-[1248px] mx-auto flex flex-col justify-center items-center gap-[120px] min-h-screen'>
-        <div className='w-full xl:w-[795px] flex flex-col justify-center items-center gap-[40px] text-center'>
-          <h1 ref={titleRef} className='text-white leading-[56px] text-[3.5rem] font-semibold sofiaProBld'>How Virtual Garden Brings the Best Talent to You</h1>
-          <p ref={subtitleRef} className='text-[#F1F1F1] text-[1.25rem] leading-[30px] font-light sofiaProL'>&quot;From your request to project completion, we make collaboration easy and seamless.&quot;</p>
+        <div className='w-full xl:max-w-[795px] flex flex-col justify-center items-center gap-[30px] lg:gap-[40px] text-center'>
+          <h1 ref={titleRef} className='text-white leading-[40px] lg:leading-[56px] text-[32px] lg:text-[3.5rem] font-semibold sofiaProBld'>How Virtual Garden Brings the Best Talent to You</h1>
+          <p ref={subtitleRef} className='text-[#F1F1F1] lg:text-[1.25rem] leading-[22.4px] lg:leading-[30px] font-light sofiaProL text-[16px]'>&quot;From your request to project completion, we make collaboration easy and seamless.&quot;</p>
         </div>
         <div ref={testimonialRef} className='w-full h-full'>
           <TestimonialCardTwo/>

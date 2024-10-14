@@ -41,8 +41,8 @@ const World = () => {
   }, { scope: sectionRef });
 
   return (
-    <section ref={sectionRef} className='bg-[#1E3E2A] min-h-screen w-full px-3 xl:px-0 flex flex-col justify-between gap-[4em] items-center py-[100px]'>
-      <h1 ref={titleRef} className='text-[2rem] md:text-[3.5rem] w-full xl:w-[738px] leading-[40px] xl:leading-[67.2px] text-center font-bold sofiaProBld text-white'>
+    <section ref={sectionRef} className='bg-[#1E3E2A] lg:min-h-screen w-full px-3 xl:px-0 flex flex-col justify-between gap-[3.2rem] lg:gap-[4em] items-center py-[17px] lg:py-[100px]'>
+      <h1 ref={titleRef} className='text-[17.92px] md:text-[3.5rem] w-full xl:max-w-[738px]  leading-[21.5px] max-w-[300px] lg:max-w-full md:leading-[40px] xl:leading-[67.2px] text-center font-bold sofiaProBld text-white tracking-[-2%]'>
         World class Virtual Assistance for you to 10x your workflow
       </h1>
       <div ref={imageRef}>

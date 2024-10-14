@@ -82,7 +82,7 @@ const HowWeWork = () => {
 
   return (
     <section ref={sectionRef} className="bg-[#1E3E2A] w-full min-h-screen">
-      <div className="max-w-[1440px] 2xl:max-w-[2000px] mx-auto z-20 relative bg-white min-h-screen pt-[80px] pb-[48px] lg:py-[160px] px-[20px] md:px-[80px] rounded-tr-[36px] lg:rounded-tr-[72px] rounded-tl-[36px] lg:rounded-tl-[72px] gap-[140px] flex flex-col">
+      <div className="max-w-[1440px] 2xl:max-w-[2000px] mx-auto z-20 relative bg-white min-h-screen pt-[80px] pb-[48px] lg:py-[160px] px-[20px] md:px-[80px] rounded-tr-[36px] lg:rounded-tr-[72px] rounded-tl-[36px] lg:rounded-tl-[72px] lg:gap-[140px] flex flex-col">
         <div className="max-w-[1225px] mx-auto flex flex-col justify-center items-center gap-[16px]">
           <h1
             ref={titleRef}
@@ -92,10 +92,10 @@ const HowWeWork = () => {
           </h1>
           <p
             ref={subtitleRef}
-            className="text-[#9C9797] text-center text-[14px] md:text-base font-light sofiaProL w-full sm:w-[290px] md::w-[676px]"
+            className="text-[#9C9797] text-center text-[14px] md:text-base font-light sofiaProL w-full sm:w-[290px] md:max-w-[676px]"
           >
-            We providing world class reusable components that help{"&apos;"}s you
-            to 10x your speed.
+            We providing world class reusable components that help&apos;s you to
+            10x your speed.
           </p>
         </div>
 
@@ -104,24 +104,32 @@ const HowWeWork = () => {
             {
               title: "Submit Your Request",
               description:
+                "Clients provide details about the specific task or project they need help with. Provide project details, and we’ll find the right talent for your needs.",
+              descriptionlg:
                 "Clients provide details about the specific task or project they need help with.",
               image: img,
             },
             {
               title: "We Scout Top Talent",
               description:
+                "Virtual Garden matches you with the best-fit virtual assistant based on your needs. Our system handpicks top Nigerian virtual assistants tailored to your specific tasks.",
+              descriptionlg:
                 "Virtual Garden matches you with the best-fit virtual assistant based on your needs.",
               image: img2,
             },
             {
               title: "Seamless Collaboration",
               description:
+                "Work with your virtual assistant via our platform for efficient task management. Work seamlessly on our platform with built-in task management and communication tools.",
+              descriptionlg:
                 "Work with your virtual assistant via our platform for efficient task management.",
               image: img3,
             },
             {
               title: "Complete Your Project",
               description:
+                "Receive results and easily finalize your contract when the project is completed. Get your project delivered with satisfaction guaranteed, and complete the contract with ease.",
+              descriptionlg:
                 "Receive results and easily finalize your contract when the project is completed.",
               image: img4,
             },
@@ -129,23 +137,25 @@ const HowWeWork = () => {
             <div
               key={index}
               ref={(el) => (stepsRef.current[index] = el)}
-              className={`w-full md:max-w-[1200px] mx-auto gap-[80px] h-full flex flex-col ${
+              className={`w-full md:max-w-[1200px] mx-auto gap-[16px] lg:gap-[80px] h-full flex flex-col-reverse ${
                 index % 2 === 0 ? "lg:flex-row" : "lg:flex-row-reverse"
               }   justify-between items-center`}
             >
               <div
-                className={`flex flex-col gap-[24px] w-full lg:w-[505px] step-content`}
+                className={`flex flex-col gap-[10px] lg:gap-[24px] w-full lg:max-w-[505px] step-content`}
               >
-                <h1 className="text-[#1E3E2A] leading-[57.6px] font-bold sofiaProBld text-[1.5rem] md:text-[2rem] lg:text-[3rem] flex items-center gap-[16px]">
-                  <span className="lg:hidden">{index + 1}.</span>
-                  {step.title}
+                <h1 className="text-[#1E3E2A] leading-[57.6px] font-bold sofiaProBld text-[1.5rem] md:text-[2rem] lg:text-[3rem] px-3 lg:px-0 flex  items-center gap-[16px]">
+                  <span className="lg:hidden ">{index + 1}.</span>
+                  <span> {step.title}</span>
                 </h1>
-                <p className="text-[#333333] md:text-[1.125rem] w-[328px] lg:w-auto text-base lg:leading-[28.8px] font-light sofiaProL">
-                  {step.description}
+        
+                <p className="text-[#333333] md:text-[1.125rem] max-w-[328px] lg:w-auto text-[14px] leading-[22.4px]  lg:leading-[28.8px] font-light sofiaProL">
+                  <span className="lg:block hidden">{step.descriptionlg}</span>{" "}
+                  <span className="block lg:hidden"> {step.description}</span>
                 </p>
               </div>
               <Image
-                className="rounded-[40px] object-cover step-image"
+                className=" rounded-lg lg:rounded-[40px] object-cover step-image"
                 width={640}
                 height={426.3}
                 src={step.image}

@@ -55,7 +55,7 @@ const WorldClassTalents = () => {
   }, { scope: sectionRef });
 
   return (
-    <section ref={sectionRef} className='w-full min-h-screen py-[100px] 2xl:pb-0 max-w-[1200px] mx-auto px-3 xl:px-0 flex flex-col justify-center items-center gap-[56px]'>
+    <section ref={sectionRef} className='w-full min-h-screen pt-[80px]    lg:py-[100px] pb-[10px] 2xl:pb-0 max-w-[1200px] mx-auto px-3 xl:px-0 flex flex-col justify-center items-center gap-[56px]'>
       <div className='flex flex-col justify-center items-center w-full xl:w-[791px] gap-[8px]'>
         <h1 ref={titleRef} className='text-[#1E3E2A] font-bold sofiaProBld leading-[40px] xl:leading-[57.6px] text-[2rem] md:text-[3rem] text-center'>
           World class Talents at your Fingertips

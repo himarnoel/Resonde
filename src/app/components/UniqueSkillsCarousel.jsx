@@ -14,7 +14,7 @@ import { GoArrowLeft, GoArrowRight } from 'react-icons/go';
 
 
 const items = [
-    <div key='1' className='w-[370px] sm:w-[310px] md:w-[370px] lg:w-[400px] xl:w-[450px] 2xl:w-[600px] h-[600px] xl:pb-[20px] xl:h-[700px] 2xl:h-[750px] flex flex-col justify-between items-start relative'>
+    <div key='1' className='w-full max-w-[370px] sm:max-w-[310px] md:max-w-[370px] lg:max-w-[400px] xl:max-w-[450px] 2xl:w-[600px] h-[600px] xl:pb-[20px] xl:h-[700px] 2xl:h-[750px] flex flex-col justify-between items-start relative'>
         <Image
         src={design}
         width={400}

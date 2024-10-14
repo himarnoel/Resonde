@@ -105,13 +105,13 @@ const OurServicesHero = () => {
   return (
     <section
       ref={sectionRef}
-      className="bg-[#F5F5F5] w-full min-h-screen px-[24px] xl:px-[36px] py-[100px] flex justify-center items-center overflow-hidden"
+      className="bg-[#F5F5F5] w-full lg:min-h-screen px-[24px] xl:px-[36px] py-[100px] flex justify-center items-center overflow-hidden"
     >
-      <div className="max-w-[1368px] mx-auto flex flex-col justify-center items-center gap-[120px]">
-        <div className="flex flex-col justify-center items-center text-center w-[609px] gap-[16px]">
+      <div className="max-w-[1368px] mx-auto flex flex-col justify-center items-center gap-[85px] lg:gap-[120px]">
+        <div className="flex max-w-[285px]  flex-col justify-center items-center text-center w-full md:max-w-[609px] gap-[16px]">
           <h1
             ref={titleRef}
-            className="sm:w-[285px] md:w-auto text-[#121212] text-[2.5rem] md:text-[4rem] leading-[48px] md:leading-[64.64px] font-semibold sofiaProR"
+            className=" w-full tracking-[-2%]  text-[#121212] text-[40px] md:text-[4rem] leading-[48px] md:leading-[64.64px] font-semibold sofiaProR"
           >
             Your Virtual Assistant for Every Need
           </h1>
@@ -120,17 +120,17 @@ const OurServicesHero = () => {
             className="text-[#333333] leading-[30px] font-normal sofiaProL text-[1.25rem]"
           >
             &quot;Discover Our Comprehensive Range of Services&quot;
-          </p>
+          </p> 
           <button
             ref={buttonRef}
-            className="w-[254px] py-[13px] text-[#D0EA50] font-light sofiaProL leading-[22.4px] text-[.875rem] bg-[#002C15] gap-[8px] rounded-full h-[48px]"
+            className="w-full hidden lg:block  sofiaProR max-w-[254px] py-[13px] text-[#D0EA50] font-light sofiaProL leading-[22.4px] text-[.875rem] bg-[#002C15] gap-[8px] rounded-full h-[48px]"
           >
             Find Your Virtual Assistant
           </button>
         </div>
         <div
           ref={cardsRef}
-          className="xl:max-w-[1288px] mx-auto justify-items-center grid grid-cols-4 gap-[3.6px] md:gap-[24px]"
+          className="xl:max-w-[1288px] w-full mx-auto justify-items-center grid grid-cols-4 gap-[8px] lg:gap-[24px]"
         >
           {cards.map((card, index) => (
             <ServiceHeroCard key={index} card={card} />
