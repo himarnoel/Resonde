@@ -144,7 +144,7 @@ const HowWeWork = () => {
               <div
                 className={`flex flex-col gap-[10px] lg:gap-[24px] w-full lg:max-w-[505px] step-content`}
               >
-                <h1 className="text-[#1E3E2A] leading-[57.6px] font-bold sofiaProBld text-[1.5rem] md:text-[2rem] lg:text-[3rem] px-3 lg:px-0 flex  items-center gap-[16px]">
+                <h1 className="text-[#1E3E2A] text-[24px] leading-[26.4px] lg:leading-[57.6px] font-bold sofiaProBld  md:text-[2rem] lg:text-[3rem] px-3 lg:px-0 flex  items-center gap-[16px]">
                   <span className="lg:hidden ">{index + 1}.</span>
                   <span> {step.title}</span>
                 </h1>
