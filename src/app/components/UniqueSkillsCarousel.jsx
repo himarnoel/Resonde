@@ -4,12 +4,12 @@ import Image from 'next/image';
 import React, { useEffect, useState } from 'react'
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
-import design from '../../../public/home/skills/design.svg';
-import web from '../../../public/home/skills/web.svg';
-import maintenance from '../../../public/home/skills/maintenance.svg';
-import media from '../../../public/home/skills/media.svg';
-import support from '../../../public/home/skills/support.svg';
-import data from '../../../public/home/skills/data.svg';
+import design from '../../../public/home/skills/imgs/img1.png';
+import web from '../../../public/home/skills/imgs/img2.png';
+import maintenance from '../../../public/home/skills/imgs/img3.png';
+import media from '../../../public/home/skills/imgs/img4.png';
+import support from '../../../public/home/skills/imgs/img5.png';
+import data from '../../../public/home/skills/imgs/img6.png';
 import { GoArrowLeft, GoArrowRight } from 'react-icons/go';
 
 
@@ -89,7 +89,7 @@ const items = [
             </div>
         </div>
     </div>,
-    <div key='5' className='w-[370px] sm:w-[310px] md:w-[370px] lg:w-[400px] xl:w-[450px] 2xl:w-[600px] h-[600px] xl:pb-[20px] xl:h-[700px] 2xl:h-[750px] flex flex-col justify-between items-start relative'>
+    <div key='6' className='w-[370px] sm:w-[310px] md:w-[370px] lg:w-[400px] xl:w-[450px] 2xl:w-[600px] h-[600px] xl:pb-[20px] xl:h-[700px] 2xl:h-[750px] flex flex-col justify-between items-start relative'>
         <Image
         src={data}
         width={400}
