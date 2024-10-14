@@ -99,7 +99,7 @@ const HowWeWork = () => {
           </p>
         </div>
 
-        <div className="w-full min-h-screen flex flex-col gap-[120px] md:max-w-[1225px] md:mx-auto px-[24px] pt-[72px] pb-[88px] lg:p-0">
+        <div className="w-full min-h-screen flex flex-col gap-[120px] md:max-w-[1225px] md:mx-auto md:px-[24px] pt-[72px] pb-[88px] lg:p-0">
           {[
             {
               title: "Submit Your Request",
