@@ -28,7 +28,7 @@ const Navbar = () => {
         } else {
           setBgColor("#1E3E2A");
           setColor("white");
-          setBorder("0px solid #FFFFFF");
+          setBorder("0.6px solid #FFFFFF");
         }
 
         break;
@@ -48,7 +48,7 @@ const Navbar = () => {
         } else {
           setBgColor("#1E3E2A");
           setColor("white");
-          setBorder("0px solid #FFFFFF");
+          setBorder("0.6px solid #fff");
         }
         break;
       default:
@@ -113,8 +113,8 @@ const Navbar = () => {
           </ul>
           <Link
             href={`/contact-us`}
-            style={{ color: color }}
-            className="hidden bg-transparent border border-white lg:flex justify-center items-center h-[48px] w-[167px] font-normal sofiaProR text-[.875rem] leading-[22.4px] py-[13px] px-[48px] rounded-full"
+            style={{ color: color, border: border }}
+            className="hidden bg-transparent  lg:flex justify-center items-center h-[48px] w-[167px] font-normal sofiaProR text-[.875rem] leading-[22.4px] py-[13px] px-[48px] rounded-full"
           >
             Contact us
           </Link>
