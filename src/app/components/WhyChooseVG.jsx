@@ -142,7 +142,7 @@ const WhyChooseVG = () => {
 
           <div className="w-full flex flex-col xl:flex-row justify-center xl:justify-between items-center gap-[40px]">
             <div ref={el => cardsRef.current[1] = el} className="w-[328px] sm:w-full 2xl:w-[620px] h-[440px] md:h-[600px] rounded-[24px] border border-[#275037] bg-[#1E3E2A] relative overflow-hidden px-[30px] py-[50px]">
-              <div className="w-[483px] gap-[16px] flex flex-col justify-center items-start">
+              <div className=" gap-[16px] flex flex-col justify-center items-start">
                 <h1 className="md:leading-[52.8px] text-white font-medium sofiaProM leading-[26.4px] text-[24px] md:text-[3rem]">
                   Cost-Effective Solutions
                 </h1>
@@ -167,7 +167,7 @@ const WhyChooseVG = () => {
               ></Image>
             </div>
             <div  ref={el => cardsRef.current[2] = el} className="w-[328px] sm:w-full 2xl:w-[620px] h-[440px] md:h-[600px] rounded-[24px] border border-[#275037] bg-[#1E3E2A] relative overflow-hidden px-[30px] py-[50px]">
-              <div className="w-[483px] gap-[16px] flex flex-col justify-center items-start">
+              <div className=" gap-[16px] flex flex-col justify-center items-start">
                 <h1 className="leading-[26.4px] text-[24px] md:leading-[52.8px] text-white font-medium sofiaProM md:text-[3rem]">
                   Secure & Easy-to-Use Platform:
                 </h1>
