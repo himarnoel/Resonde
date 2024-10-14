@@ -105,7 +105,7 @@ const AboutUsHero = () => {
             <h1 className="text-[#333333] font-semibold sofiaProR leading-[20.25px] md:leading-[50px] lg:leading-[55.86px] text-[16.2px] md:text-[2.5rem] lg:text-[2.813rem]">
               90%
             </h1>
-            <p className="md:w-[100px] lg:w-[122.89px] text-[#333333] leading-[15px] md:leading-[18px] lg:leading-[19.95px] text-[12px] md:text-[14px] lg:text-[15.96px] font-light sofiaProL">
+            <p className="md:w-[100px] lg:w-[122.89px] text-[#333333] leading-[7.23px]md:leading-[18px] lg:leading-[19.95px] text-[5.79px]  md:text-[14px] lg:text-[15.96px] font-light sofiaProL">
               Average Client Satisfaction Rate
             </p>
           </div>
