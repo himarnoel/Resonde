@@ -82,9 +82,9 @@ const UniquesSKills = () => {
           </p>
         </div>
 
-          <UniqueSkillsCarousel />
        
       </div>
+      <UniqueSkillsCarousel />
     </section>
   );
 }
